@@ -7,7 +7,7 @@ int main() {
     bp::child c(
             bp::search_path("bash"),
             std::vector<std::string>{
-                    "-c", "/home/sena/Files/ISUZU_scripts/system-monitor.sh"},
+                    "-c", "/home/sena/Files/ISUZU_scripts/install_reader.sh"},
             g); // create child class for system_monitor
     std::this_thread::sleep_for(std::chrono::seconds(10));
 
